@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".LastActivity"
+    tools:showIn="@layout/activity_last">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv1"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/thankyou"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_below="@id/iv1"
+            android:textStyle="bold|italic"
+            android:text="Thank You For Enrollment @SCTPL"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/home"
+            android:layout_gravity="center"
+            android:text="Go to Home"
+            android:background="@drawable/shape"
+            android:layout_marginTop="10dp"
+            android:onClick="goHome"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

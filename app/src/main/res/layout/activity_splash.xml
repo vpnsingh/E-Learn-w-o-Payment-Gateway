@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity">
+
+    <LinearLayout
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+     <ImageView
+         android:id="@+id/iv"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:src="@drawable/logo"/>
+
+     <TextView
+         android:id="@+id/tv"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Welcome to SCTPL e-Learn"
+         android:layout_marginTop="10dp"
+         android:textStyle="bold"
+         android:textSize="20dp"
+         android:textColor="#ffffff"/>
+
+    </LinearLayout>
+</RelativeLayout>

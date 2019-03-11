@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#444444"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@color/colorAccent"/>
+    <LinearLayout
+        android:id="@+id/ly1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_below="@id/recycler_view">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Us For Any Query:"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        />
+
+     <ImageView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:src="@drawable/suven_hdr"
+         android:layout_marginTop="10dp"
+         />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+
+        <ImageButton
+            android:id="@+id/bt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="doWhatsapp"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center"
+            android:background="@drawable/icon_whatsapp"
+            />
+
+        <ImageButton
+            android:id="@+id/bt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:onClick="doGmail"
+            android:background="@drawable/icon_gmail"
+            />
+
+        <ImageButton
+                android:id="@+id/bt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="doCall"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="center"
+                android:background="@drawable/icon_phone"
+                />
+
+            <ImageButton
+                android:id="@+id/bt4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:onClick="doWeb"
+                android:layout_gravity="center"
+                android:background="@drawable/icon_geography"
+                />
+        </LinearLayout>
+
+</LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">e-Learn</string>
+    <string name="title_activity_web_dev">Web Development</string>
+    <string name="title_activity_java">S/W Development</string>
+    <string name="title_activity_database">Database Development</string>
+    <string name="title_activity_androids">Android Development</string>
+    <string name="hint_card">Enter Card No.</string>
+    <string name="hint_expire">Expiry Date as MM/YY</string>
+    <string name="hint_cvv">Enter CVV</string>
+    <string name="err_msg_name">Please Enter Values</string>
+    <string name="dialog_title">Add to Cart</string>
+    <string name="dialog_message">are you sure want to add this course to your cart ?</string>
+
+    <string-array name="coursename">
+        <item> Android Development </item>
+        <item> Web Development </item>
+        <item> S/W Development </item>
+        <item> Database Development </item>
+    </string-array>
+    <string-array name="coursecost">
+        <item> 5000 </item>
+        <item> 6000 </item>
+        <item> 4000 </item>
+        <item> 5500 </item>
+    </string-array>
+    <string-array name="coursedisc">
+        <item> 5 </item>
+        <item> 10 </item>
+        <item> 5 </item>
+        <item> 10 </item>
+    </string-array>
+
+    <string-array name="courseobj">
+        <item> The objective of this course is to teach Android very easily. </item>
+        <item> The objective of this course is to teach Java very easily. </item>
+        <item> The objective of this course is to teach Oracle very easily. </item>
+        <item> The objective of this course is to teach PHP very easily. </item>
+    </string-array>
+
+    <string-array name="coursecont">
+        <item> The contents are Activities, Services, Types of Layouts, Google Maps, Sqllite database </item>
+        <item> The contents are Java Data Types, Arrays, Inheritance, String Processing, Encapsulation, Threads, Building Database Applications with JDBC </item>
+        <item> The contents are PL/SQL Language Fundamentals, Queries, Subqueries, Managing Tables using DML statements, Control Statement, Collection Types, Cursors, Errors and Exceptions, Stored Procedure and Function, Triggers, Packages </item>
+        <item> The contents are PHP Operators , Array and Loops, Array Functions, String Processing, file Functions, Session Management, MySQL DB Connectivity </item>
+    </string-array>
+
+    <string name="title_activity_last">LastActivity</string>
+    <string name="title_activity_others">Others</string>
+
+</resources>
